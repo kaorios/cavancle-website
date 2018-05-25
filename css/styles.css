@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic', sans-serif;
+  font-size: 100%;
+  color: #1a1a1a;
+  background-color: #f9f9f9;
+}
+p {
+  line-height: 1.8;
+}
+.container {
+  max-width: 100%;
+  width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header-nav__logo img {
+  width: 38px;
+  height: auto;
+}
+.header-nav__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header-nav__links li {
+  display: inline-block;
+  margin-left: 1em;
+}
+.header-nav__links li a {
+  text-decoration: none;
+  color: #868e96;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin-bottom: 40px;
+}
+.hero__title {
+  margin: 0;
+}
+.btn {
+  font-weight: bold;
+  font-size: 12px;
+  /*font-size: calc(11px + ((1 * (100vw - 800px)) / 799));*/
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #f2b132;
+  padding: 15px 60px;
+  color: #fff;
+  border-radius: 100px;
+  margin-bottom: 40px;
+  text-decoration: none;
+  transition: transform .15s ease;
+}
+.hero__img {
+  width: 100%;
+  height: auto;
+}
+
+.features {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.features__text {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin-bottom: 80px;
+}
+.features-list {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.features__feature {
+  margin: 0 auto 20px;
+}
+.features__feature-content {
+  max-width: 400px;
+  padding: 0 15px;
+}
+.features__feature-content h3 {
+  font-size: 100%;
+}
+
+.banner {
+  background-image: url(../img/bg-banner.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 260px;
+  display: flex;
+  align-items: center;
+}
+.banner-content {
+  padding: 40px 30px;
+  color: #ffffff;
+}
+.about {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+#footer {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.copyright {
+  font-size:12px;
+  text-align: center;
+  color: #868e96;
+}
