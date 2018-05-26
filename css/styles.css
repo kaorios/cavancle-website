@@ -55,6 +55,7 @@ p {
   margin: 0;
 }
 .btn {
+  display: inline-block;
   font-weight: bold;
   font-size: 12px;
   /*font-size: calc(11px + ((1 * (100vw - 800px)) / 799));*/
@@ -64,13 +65,13 @@ p {
   padding: 15px 60px;
   color: #fff;
   border-radius: 100px;
-  margin-bottom: 40px;
   text-decoration: none;
   transition: transform .15s ease;
 }
 .hero__img {
   width: 100%;
   height: auto;
+  margin-top: 40px;
 }
 
 .features {
@@ -83,6 +84,7 @@ p {
 .features__text {
   font-size: 1.1em;
   max-width: 800px;
+  width: 80%;
   margin-bottom: 80px;
 }
 .features-list {
@@ -112,9 +114,17 @@ p {
   display: flex;
   align-items: center;
 }
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .banner-content {
   padding: 40px 30px;
   color: #ffffff;
+}
+.banner-content p {
+  margin-bottom: 1em;
 }
 .about {
   padding: 40px 0;
